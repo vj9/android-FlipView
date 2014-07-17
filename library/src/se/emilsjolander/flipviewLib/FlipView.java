@@ -1,6 +1,5 @@
-package se.emilsjolander.flipview;
+package se.emilsjolander.flipviewLib;
 
-import se.emilsjolander.flipview.Recycler.Scrap;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.animation.TimeInterpolator;
@@ -408,7 +407,7 @@ public class FlipView extends FrameLayout {
 	private View getView(int index, int viewType) {
 		// get the scrap from the recycler corresponding to the correct view
 		// type
-		Scrap scrap = mRecycler.getScrapView(index, viewType);
+		Recycler.Scrap scrap = mRecycler.getScrapView(index, viewType);
 
 		// get a view from the adapter if a scrap was not found or it is
 		// invalid.

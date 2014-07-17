@@ -1,4 +1,4 @@
-package se.emilsjolander.flipview;
+package se.emilsjolander.flipviewLib;
 
 import android.graphics.Canvas;
 

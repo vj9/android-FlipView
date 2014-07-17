@@ -1,13 +1,17 @@
-package se.emilsjolander.flipview;
+package com.viral.newsFlip;
 
-import se.emilsjolander.flipview.FlipAdapter.Callback;
-import se.emilsjolander.flipview.FlipView.OnFlipListener;
-import se.emilsjolander.flipview.FlipView.OnOverFlipListener;
 import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import com.viral.newsFlip.FlipAdapter.Callback;
+
+import se.emilsjolander.flipviewLib.FlipView;
+import se.emilsjolander.flipviewLib.FlipView.OnFlipListener;
+import se.emilsjolander.flipviewLib.FlipView.OnOverFlipListener;
+import se.emilsjolander.flipviewLib.OverFlipMode;
 
 public class MainActivity extends Activity implements Callback, OnFlipListener, OnOverFlipListener {
 	
