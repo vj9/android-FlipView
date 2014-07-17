@@ -18,7 +18,7 @@ afterEvaluate { project ->
                 pom.artifactId = POM_ARTIFACT_ID
 
                 repository(url: sonatypeRepositoryUrl) {
-                    authentication(userName: SONATYPE_USERNAME, password: SONATYPE_PASSWORD)
+                    authentication(userName: "varun", password: "varun")
                 }
 
                 pom.project {
